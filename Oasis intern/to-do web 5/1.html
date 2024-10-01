@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .container {
+        background-color: white;
+        border: 2px solid pink;
+        display: inline-block;
+        padding: 50px 100px 50px 100px;
+        margin: 200px 500px 200px 500px;
+        border-radius: 20px;
+        box-shadow: 0px 3px 15px honeydew;
+      }
+      button {
+        border-radius: 20px;
+        font-size: larger;
+      }
+      button:hover {
+        background-color: lightgreen;
+      }
+      ul li {
+        list-style: number;
+        font-size: 30px;
+        padding: 12px 0px 12px 12px;
+      }
+      input {
+        border-radius: 20px;
+        font-size: larger;
+      }
+      ul li span {
+        padding: 0px 0px 0px 200px;
+        font-size: 30px;
+      }
+      span:hover {
+        color: darkred;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>To-Do List&rAarr;</h2>
+      <input type="text" id="input-box" placeholder="write text here.." />
+      <button onclick="AddTask()">Add</button>
+      <ul id="list-container">
+        <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

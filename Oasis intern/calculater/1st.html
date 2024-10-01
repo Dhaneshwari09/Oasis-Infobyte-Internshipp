@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <style>
+          .calcy{
+              margin: 0px 650px 0px 500px;
+              padding: 0px 0px 0px 0px;
+              border-radius: 10px;
+              background-color:rgb(179, 138, 138);;
+             
+              box-shadow: 0px 3px 15px honeydew;
+          }
+          .calcy h2{
+             padding: 20px 80px 0px 55px;
+             font-family: cursive;
+          }
+          .calcy input{
+             padding: 0px 260px 0px 0px;
+              margin: 0px 50px 0px 10px;
+              border-radius: 5px;
+              border: none;
+              width: 60px;
+              height: 50px;
+              font-size: 20px;
+              /* box-shadow: 0px 3px 15px honeydew; */
+          }
+          /* input[type=text]
+          {
+              text-align: right;
+              padding: 0px 0px 0px 260px;
+              margin: 0px 0px 0px 10px;
+          } */
+          button{
+              margin: 10px 13px 10px 10px;
+              padding: 10px 20px 10px 20px;
+              border-radius: 5px;
+              border: none;
+              font-size: 20px;
+              width: 60px;
+              height: 60px;
+             /* background-color: blue; */
+
+              /* box-shadow: 0px 3px 15px honeydew; */
+             
+          }
+          .operator{
+              background-color:rgb(240, 13, 13);
+          }
+          .operat{
+              background-color: rgb(112, 206, 112);
+          }
+          .op{
+            width: 100px;
+            background-color: rgb(188, 89, 138);
+          }
+    </style>
+  </head>
+  <body style="background-color: rgb(127, 81, 81);">
+    <div class="calcy">
+      <h2>Colorful Calculator</h2>
+      <input id="show" type="text" placeholder="0" value="" >
+
+      <div>
+        <button class="button operator" value="AC">AC</button>
+        <button class="button" value="/">/</button>
+        <button class="button" value="*">*</button>
+        <button class="button" value="-">-</button>
+      </div>
+
+      <div>
+        <button class="button" value="7">7</button>
+        <button class="button" value="8">8</button>
+        <button class="button" value="9">9</button>
+        <button class="button" value="+">+</button>
+      </div>
+
+      <div>
+        <button class="button" value="4">4</button>
+        <button class="button" value="5">5</button>
+        <button class="button" value="6">6</button>
+        <button class="button" value="1">1</button>
+      </div>
+
+      <div>
+        <button class="button" value="2">2</button>
+        <button class="button" value="3">3</button>
+        <button class="button" value="0">0</button>
+        <button class="button" value=".">.</button>
+      </div>
+
+      <div>
+        <button class="button operat" value="=">=</button>
+        <button class="button op" value="delete">delete</button>
+    
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
